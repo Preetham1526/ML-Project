@@ -260,7 +260,7 @@ Symptom3 = StringVar()
 Symptom3.set(None)
 
 Name = StringVar()
-img = Image.open("HomePage.png")
+img = Image.open(r"C:\Users\eswar\OneDrive\Desktop\ML Project\homepage.jpg")
 img = ImageTk.PhotoImage(img)
 panel = Label(window, image=img)
 panel.pack(side="top", fill="both", expand="yes")
